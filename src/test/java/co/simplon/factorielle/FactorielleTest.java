@@ -49,4 +49,13 @@ public class FactorielleTest {
 		assertEquals(1, resultat);
 	
 }
+	@Test
+	public void factorielle_de_3_doit_renvoyer_6() {
+	
+		Factorielle factorielle = new Factorielle() ; //méthode plus rapide
+	
+
+		assertEquals(6, factorielle.calculer(3));
+	
+}
 }

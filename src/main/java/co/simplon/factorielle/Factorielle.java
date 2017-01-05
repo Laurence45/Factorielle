@@ -15,7 +15,7 @@ public class Factorielle
     		} else if (n < 0) {
     			throw new IllegalArgumentException();
     		}
-    		return 1;
+    		return 1; //pour test de 0 modifier le n en 1
     		
     }
 
