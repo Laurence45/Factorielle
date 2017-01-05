@@ -23,7 +23,30 @@ public class FactorielleTest {
 		
 		//verifier = then
 		assertEquals(1, resultat);
-				
+		
+	}
+	
+	@Test
+	public void factorielle_de_2_doit_renvoyer_2() {
+		
+		Factorielle factorielle = new Factorielle() ; 
+		long entier = 2;
+		
+		long resultat = factorielle.calculer(entier);
+		
+		assertEquals(2, resultat);
+	
 	}
 
+	@Test
+	public void factorielle_de_0_doit_renvoyer_1() {
+	
+		Factorielle factorielle = new Factorielle() ;
+		long entier = 0;
+		
+		long resultat = factorielle.calculer(entier);
+		
+		assertEquals(1, resultat);
+	
+}
 }
